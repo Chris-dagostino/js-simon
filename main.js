@@ -16,7 +16,6 @@ function casuali() {
      document.getElementById("casuali").innerHTML = "Numeri generati: " + str;
      } 
      else {
-        document.getElementById("casuali").innerHTML = "Inserisci un numero maggiore di 0 e inferiore a 100";
      }
 };
 
