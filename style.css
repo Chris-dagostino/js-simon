@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text{
+    line-height: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    font-size: 50px;
+}
+
+#container{
+    width: 50%;
+    height: 30%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid rgb(58, 56, 56);
+}
+
+#casuali{
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+    text-align: center;
+}
