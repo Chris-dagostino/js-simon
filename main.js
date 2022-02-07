@@ -2,10 +2,16 @@
 
 // genero dei numeri casuali e gli scrivo su HTML
 
+getRandomNumber = document.getElementById('casuali').innerHTML;
+
+function getRandomNumber ( 0 , 100 ) {
+    return Math.floor(Math.random()*(max - min +1) + min);
+}
+
 function casuali() {
-    n = document.getElementById("casuali").innerHTML;
-    if (n > 0 && n <= 100) {
-      str = "";
+    n = getRandomNumber;
+    str = "";
+
       for (i = 0; i < n; i++) {
            num = Math.round(Math.random()*100 + 1);
            if (i > 0) {
@@ -13,18 +19,10 @@ function casuali() {
            }
            str += num;
        }
+
      document.getElementById("casuali").innerHTML = "Numeri generati: " + str;
-     } 
-     else {
-     }
+    } 
 };
-
-getRandomNumber = document.getElementById('casuali').innerHTML;
-
-
-function getRandomNumber (min,max) {
-    return Math.floor(Math.random()*(max - min +1) + min);
-}
 
 // stabilisco un contatore per la visualizzazione dei numeri
 
