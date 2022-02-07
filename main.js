@@ -3,7 +3,7 @@
 // genero dei numeri casuali e gli scrivo su HTML
 
 function casuali() {
-    n = document.getElementById("quanti").innerHTML;
+    n = document.getElementById("casuali").innerHTML;
     if (n > 0 && n <= 100) {
       str = "";
       for (i = 0; i < n; i++) {
